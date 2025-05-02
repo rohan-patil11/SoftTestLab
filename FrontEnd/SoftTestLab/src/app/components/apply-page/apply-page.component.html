@@ -1,0 +1,39 @@
+<div class="application-form-container">
+  <h1>Full Stack Developer Internship Application</h1>
+  <form (ngSubmit)="onSubmit()" #applicationForm="ngForm">
+    <div class="form-group">
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullName" name="fullName" [(ngModel)]="fullName" required class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" [(ngModel)]="email" required class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="contactNumber">Contact Number</label>
+      <input type="text" id="contactNumber" name="contactNumber" [(ngModel)]="contactNumber" required class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="skills">Skills</label>
+      <input type="text" id="skills" name="skills" [(ngModel)]="skills"  class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="degree">Degree</label>
+      <input type="text" id="degree" name="degree" [(ngModel)]="degree" required class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="github">GitHub Profile Link</label>
+      <input type="url" id="github" name="github" [(ngModel)]="github" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>
+

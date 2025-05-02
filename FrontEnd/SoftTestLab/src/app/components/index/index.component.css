@@ -1,0 +1,51 @@
+.services-section {
+  background: #fff;
+  padding: 0;
+  text-align: center;
+}
+
+.services-header {
+  background: url('src/assets/Images/standard-quality-control-concept-m.jpg') no-repeat center center;
+  background-size: 100% 100%; /* This stretches the image to fill both height and width */
+  height: 400px; /* You can adjust the height */
+  color: rgb(11, 11, 11);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.services-header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 40px 0;
+  padding: 0 20px;
+}
+
+.service-card {
+  background-color: #1976d2;
+  color: white;
+  width: 300px;
+  padding: 30px 20px;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
